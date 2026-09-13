@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Grynsoft.EntitySystem</AssemblyName>
+    <RootNamespace>Grynsoft.EntitySystem</RootNamespace>
+    <Version>1.0.0</Version>
+    <Description>Entity registry, lifecycle, and target resolution for .NET</Description>
+  </PropertyGroup>
+
+</Project>

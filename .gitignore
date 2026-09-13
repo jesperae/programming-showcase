@@ -1,0 +1,24 @@
+# Build artifacts
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+
+# IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temp files
+*.tmp
+*.bak
+
+# Sync script (local only)
+github.bat

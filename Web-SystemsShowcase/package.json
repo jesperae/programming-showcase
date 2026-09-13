@@ -1,0 +1,16 @@
+{
+  "name": "web-systems-showcase",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Systems showcase - shared TypeScript core, Express REST API with live events, React and Angular dashboards.",
+  "workspaces": [
+    "core",
+    "node-api",
+    "react-demo"
+  ],
+  "scripts": {
+    "test": "npm test -w @showcase/core",
+    "dev:api": "npm run dev -w @showcase/node-api",
+    "dev:react": "npm run dev -w @showcase/react-demo"
+  }
+}
